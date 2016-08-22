@@ -1,0 +1,130 @@
+#main_barChart .bar {
+  fill: steelblue;
+}
+
+#main_barChart .bar:hover{
+  fill: brown;
+}
+
+#main_barChart .axis {
+  font: 10px sans-serif;
+}
+
+#main_barChart .axis path,
+#main_barChart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#main_barChart .x.axis path {
+  display: none;
+}
+
+#main_barChart .drillbar {
+  fill: #C1C1C1;
+}
+
+#main_barChart .sub_bar:hover{
+  fill: #ff8c00;
+}
+
+#main_barChart .sub_bar{
+  fill: steelblue;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.d3-tip a {
+  text-decoration:none;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+#main_lineChart .axis {
+  font: 10px sans-serif;
+}
+
+#main_lineChart .axis path,
+#main_lineChart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#main_lineChart .axis--x path {
+  display: none;
+}
+
+#main_lineChart .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+#main_lineChart circle {
+  fill:steelblue;
+  stroke: steelblue;
+}
+
+#main_lineChart circle:hover {
+  fill:brown;
+  stroke: brown;
+}
+
+#main_circleChart .arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+#main_circleChart .arc path {
+  stroke: #fff;
+}
+
+#main_circleChart .arc * [title]:hover:after {
+  content: attr(title);
+  padding: 4px 8px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+  z-index: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+}

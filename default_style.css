@@ -1,0 +1,117 @@
+#legend {
+	margin:3px;
+}
+
+.third_column{
+	border:solid #4d4d4d 1px;
+	margin:0 5%;
+	display:inline-block;
+	height:50vh;
+	max-width:90%;
+}
+
+.basic_info{
+	background-color:#a5c8e1;
+	padding:7px;
+	margin:3pt;
+	//margin-top:1em;
+}
+
+.group .basic_info{
+	background-color:#FEC4A3;
+}
+
+.basic_info .btn{
+	margin-top:-7px;
+}
+.basic_info p, .basic_info h3{
+	margin:0pt;
+	padding:0pt 3px;
+	/*width:20vw;*/
+	/*margin:0px 40vw;*/
+
+	display:inline;
+}
+
+.basic_info p:hover{
+	margin:0pt;
+	background-color:white;
+	/*width:20vw;*/
+	/*margin:0px 40vw;*/
+	padding:3px;
+	font-style:bold;
+}
+
+.group_title{
+	margin-top:0px;
+}
+
+td{
+	border: 1px #c3c3e1 solid;
+	padding: 0px 5px;
+}
+
+tr td + td{
+	text-align: left;
+}
+
+table{
+	width:100%;
+}
+
+.pie-chart{
+	width:50%;
+	min-height:480px;
+}
+#line_group, #chart_over_time{
+	width:100%;
+	min-height:550px;
+}
+
+#main_barChart svg{
+	width:100%;
+}
+
+.c3-event-rect .c3-event-rect-0{
+	padding:0px;
+	margin:0px;
+	width:50%;
+}
+#chart_region, #chart_city {
+	padding:0px;
+	margin:0px;
+}
+#main_circleChart{
+	display:inline;
+}
+
+form, form *{
+	margin: 3px;
+}
+
+.more_info{
+	//border:solid 1px #4d4d4d;
+	//float:right;
+	//position:relative;
+	//margin-top:7em;
+	//margin-top:-3em;
+	//margin-left:32.3em;
+	//max-width:55em;
+	//width:60%;
+	padding:6px;
+	margin:6px;
+	background-color:#e4e4e4;
+}
+
+#persist{
+	color: lightgrey;
+}
+
+#persist:hover{
+	color: lightgrey;
+	background-color:white;
+	pointer-events: none;
+    cursor: default;
+}
+
+.form-control{display:inline;}
